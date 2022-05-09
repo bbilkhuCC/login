@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Login Form Validation</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+        <h2>Login Form Validation</h2>
+            <form id="form_id" method="post" name="myform">
+                <label><b class="text">User Name :</b></label>
+                <input type="text" name="username" id="username"/>
+                <label><b class="text">Password :</b></label>
+                <input type="password" name="password" id="password"/>
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+            <span><b class="note">Note : </b>For this app, use following username and password. <br/><b class="text">User Name : <b class="valid">ccuser</b><br/><b class="text">Password : <b class="valid">password#123</b></b></span>
+        </div>
+    </div>
+</body>
+</html>
